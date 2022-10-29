@@ -1,0 +1,5 @@
+/.terraform
+/terraform.tfstate*
+/.terraform.*
+/node_modules
+/package*.json

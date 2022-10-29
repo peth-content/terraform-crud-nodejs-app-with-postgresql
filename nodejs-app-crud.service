@@ -1,0 +1,12 @@
+[Unit]
+Description=NodeJS App Hello World
+After=network.target
+
+[Service]
+Type=simple
+User=ubuntu
+ExecStart=/usr/bin/node /app/nodejs-app-crud.js
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
